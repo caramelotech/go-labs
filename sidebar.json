@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "label": "Visão geral",
+      "slug": "."
+    },
+    {
+      "label": "Fundamentos",
+      "directory": "fundamentos"
+    },
+    {
+      "label": "Prática",
+      "directory": "pratica"
+    },
+    {
+      "label": "Roadmap",
+      "slug": "roadmap"
+    },
+    {
+      "label": "Recursos",
+      "slug": "recursos"
+    }
+  ]
+}
