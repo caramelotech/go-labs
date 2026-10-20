@@ -31,3 +31,25 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Environment
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude & AI
+.claude/
+.codex/
+bash.exe.stackdump
+
+# Personal
+ref/
