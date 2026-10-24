@@ -2,7 +2,28 @@
 
 Este diretório reúne exemplos de código e projetos já implementados para acompanhar o conteúdo do Go Labs.
 
-## Exemplos disponíveis
+Cada exemplo é um módulo Go independente, com seu próprio `go.mod`.
+
+## Fundamentos da linguagem
+
+Série introdutória (pastas novas, separadas da trilha avançada): sintaxe, tipos compostos e visibilidade.
+
+| Exemplo | Conceito |
+| ------- | -------- |
+| [14-variaveis-tipos](14-variaveis-tipos/) | `var`, `:=`, `const` e zero values |
+| [15-if-switch](15-if-switch/) | `if` com declaração curta e `switch` |
+| [16-for](16-for/) | Única estrutura de repetição (`for` / `range`) |
+| [17-funcoes](17-funcoes/) | Múltiplos retornos, nomeados e variádicas |
+| [18-slices](18-slices/) | Slice, `append`, fatiamento e `copy` |
+| [19-maps](19-maps/) | Map: insert, comma ok, `delete`, `range` |
+| [20-structs](20-structs/) | Structs e structs aninhadas |
+| [21-ponteiros](21-ponteiros/) | `&`, `*` e mutação via ponteiro |
+| [22-visibilidade](22-visibilidade/) | Exportado (maiúscula) vs não exportado |
+| [23-metodos](23-metodos/) | Métodos com value e pointer receiver |
+
+**Ordem sugerida:** 14 → 15 → 16 → 17 → 18 → 19 → 20 → 21 → 22 → 23
+
+## Exemplos avançados / práticas
 
 | Exemplo | Conceito |
 | ------- | -------- |
@@ -29,14 +50,13 @@ Este diretório reúne exemplos de código e projetos já implementados para aco
 5. Para validar todos de uma vez (com race detector): `make test`
 6. Modifique, teste e experimente variações
 
-Cada exemplo é um módulo Go independente, com seu próprio `go.mod`.
-
 ## Trilha sugerida
 
-1. **Fundamentos:** 01 → 08 → 09 → 10 → 02 → 03
-2. **Concorrência (onde Go se destaca):** 04 → 05 → 06 → 07 → 13
-3. **HTTP / observabilidade:** 11 → 12
-4. Depois, aplique no [Projeto 04 - Verificador de Links](../notes/pratica/02-projetos.md)
+1. **Fundamentos da linguagem:** 14 → 15 → 16 → 17 → 18 → 19 → 20 → 21 → 22 → 23
+2. **Práticas e design:** 01 → 08 → 09 → 10 → 02 → 03
+3. **Concorrência (onde Go se destaca):** 04 → 05 → 06 → 07 → 13
+4. **HTTP / observabilidade:** 11 → 12
+5. Depois, aplique no [Projeto 04 - Verificador de Links](../notes/pratica/02-projetos.md)
 
 ## Prática guiada
 
