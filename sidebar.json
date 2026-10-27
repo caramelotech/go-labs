@@ -9,6 +9,18 @@
       "directory": "fundamentos"
     },
     {
+      "label": "A Linguagem a Fundo",
+      "directory": "linguagem"
+    },
+    {
+      "label": "Concorrência",
+      "directory": "concorrencia"
+    },
+    {
+      "label": "Backend",
+      "directory": "backend"
+    },
+    {
       "label": "Prática",
       "directory": "pratica"
     },

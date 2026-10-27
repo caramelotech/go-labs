@@ -17,12 +17,15 @@ Veja o [README.md](README.md) para a visão geral do repositório.
 
 Cada pasta em `notes/` é uma seção do site, com um escopo próprio. Use o escopo para decidir onde uma nota nova entra. A ideia é não manter uma lista de tópicos por pasta aqui nem no `index.md` - ao adicionar conteúdo dentro de um escopo já descrito, esses arquivos não precisam mudar.
 
-- **`fundamentos/`** - primeiros passos com Go: instalar e configurar o ambiente, entender o que é a linguagem e escrever os primeiros programas (sintaxe, tipos, funções, controle de fluxo, módulos). Para quem nunca programou em Go.
+- **`fundamentos/`** - primeiros passos com Go: instalar e configurar o ambiente, entender o que é a linguagem e escrever os primeiros programas (sintaxe, tipos, funções, controle de fluxo, coleções, structs, ponteiros, pacotes e módulos). Para quem nunca programou em Go.
+- **`linguagem/`** - a linguagem a fundo, depois da sintaxe básica: métodos e receivers, interfaces e composição, tratamento de erros, testes e, quando houver material, generics e biblioteca padrão.
+- **`concorrencia/`** - goroutines, channels, `select`, padrões como worker pool e pipeline, `context` e sincronização com o pacote `sync`.
+- **`backend/`** - Go aplicado a serviços: HTTP com `net/http`, middlewares, logging e observabilidade, e no futuro banco de dados e deploy.
 - **`pratica/`** - exercícios (`01-exercicios.md`) e projetos (`02-projetos.md`) para aplicar o conteúdo do lab.
 - **`roadmap.md`** (nota solta) - trilha de estudos de Go, do primeiro programa à produção. É um guia de percurso, mantido à parte e independente da cobertura atual das notas.
 - **`recursos.md`** (nota solta) - materiais externos para aprofundar (livros, cursos, documentação, comunidades).
 
-Seções futuras previstas no roadmap (criar quando houver material para 2-3 notas): `go/` (a linguagem a fundo: structs, interfaces, erros, generics, concorrência com goroutines e channels, biblioteca padrão) e `backend/` (APIs HTTP, banco de dados, testes, observabilidade e deploy).
+As notas citam os exemplos de `examples/` que as acompanham com link absoluto para o GitHub (`https://github.com/caramelotech/go-labs/tree/main/examples/<pasta>`), já que os exemplos não são publicados no site.
 
 ## Tarefas Comuns
 

@@ -16,20 +16,26 @@ As notas deste repositório são publicadas no site do [Caramelo Labs](https://c
 
 ## Conteúdo
 
-| Seção       | Escopo                                                     |
-| ----------- | ---------------------------------------------------------- |
-| Fundamentos | Ambiente, primeiros passos e base da linguagem             |
-| Prática     | Exercícios e projetos para aplicar os conteúdos do lab     |
-| Roadmap     | Trilha de estudos de Go, do primeiro programa à produção   |
-| Recursos    | Materiais externos para aprofundamento                     |
+| Seção               | Escopo                                                         |
+| ------------------- | -------------------------------------------------------------- |
+| Fundamentos         | Ambiente, primeiros passos e base da linguagem                 |
+| A Linguagem a Fundo | Métodos, interfaces, tratamento de erros e testes              |
+| Concorrência        | Goroutines, channels, worker pool, `context` e pacote `sync`   |
+| Backend             | HTTP com `net/http`, middlewares e logging com `slog`          |
+| Prática             | Exercícios e projetos para aplicar os conteúdos do lab         |
+| Roadmap             | Trilha de estudos de Go, do primeiro programa à produção       |
+| Recursos            | Materiais externos para aprofundamento                         |
 
 ## Estrutura do repositório
 
 ```text
 go-labs/
 ├── notes/           -> Notas em Markdown puro publicadas no Caramelo Labs
-│   ├── fundamentos/ -> Primeiros passos com Go
-│   └── pratica/     -> Exercícios e projetos propostos
+│   ├── fundamentos/  -> Primeiros passos com Go
+│   ├── linguagem/    -> Métodos, interfaces, erros e testes
+│   ├── concorrencia/ -> Goroutines, channels, context e sync
+│   ├── backend/      -> HTTP e logging
+│   └── pratica/      -> Exercícios e projetos propostos
 ├── examples/        -> Exemplos de código Go prontos para executar
 ├── sidebar.json     -> Ordem das seções no hub
 ├── .github/         -> Templates e guias de contribuição
