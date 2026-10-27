@@ -111,6 +111,8 @@ go build     # gera o executável na pasta atual
 
 Use `go run` enquanto está desenvolvendo e `go build` quando quiser distribuir o programa.
 
+O exemplo [01-hello-world](https://github.com/caramelotech/go-labs/tree/main/examples/01-hello-world) do repositório tem esse programa pronto, com as duas formas de execução.
+
 ## O jeito Go de escrever código
 
 A comunidade Go valoriza código **claro em vez de esperto**. Alguns princípios que você vai encontrar sempre:
@@ -120,7 +122,7 @@ A comunidade Go valoriza código **claro em vez de esperto**. Alguns princípios
 - Nomes curtos para escopos pequenos (`i`, `err`, `r`), nomes descritivos para escopos maiores
 - Tratar erros explicitamente, logo depois de cada chamada que pode falhar
 
-Uma frase popular entre os Gophers (como são chamadas as pessoas que programam em Go) resume bem: *"Clear is better than clever"* - claro é melhor que esperto.
+Uma frase popular entre os Gophers (como são chamadas as pessoas que programam em Go) resume bem: _"Clear is better than clever"_ - claro é melhor que esperto.
 
 ## Referências
 
